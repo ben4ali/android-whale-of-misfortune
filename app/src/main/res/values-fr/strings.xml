@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Projet pendu</string>
+    <string name="game_title">JEU DU PENDU</string>
+    <string name="score">Score:</string>
+    <string name="instruction">Trouver ce mot:</string>
+    <string name="start">DEBUTER LE JEU</string>
+    <string name="preference">PRÉFÉRENCES</string>
+    <string name="perdu">PERDU !</string>
+    <string name="victoire">VICTOIRE !</string>
+    <string name="rejouer">REJOUER</string>
+    <string name="reponse">"Le mot était : "</string>
+    <string name="commencer">COMMENCER</string>
+    <string name="historique">HISTORIQUE</string>
+    <string name="temps">"Temps : "</string>
+    <string name="mot">"Mot : "</string>
+    <string name="retour">RETOUR</string>
+    <string name="nbErreur">"Erreurs : "</string>
+    <string name="dictionnaire">DICTIONNAIRE</string>
+    <string name="placeHolder_mot">Entrez un mot</string>
+    <string name="ajouter">AJOUTER</string>
+    <string name="langue">LANGUAGE</string>
+    <string name="difficult">DIFFICULTÉ</string>
+    <string name="francais">FRANCAIS</string>
+    <string name="english">ENGLISH</string>
+    <string name="facile">FACILE</string>
+    <string name="normal">NORMAL</string>
+    <string name="dur">DIFFICILE</string>
+    <string name="motInput">Entrez un mot</string>
+</resources>

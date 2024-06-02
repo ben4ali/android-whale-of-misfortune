@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Hangman Project</string>
+    <string name="game_title">HANGMAN GAME</string>
+    <string name="score">Score:</string>
+    <string name="instruction">Find this word:</string>
+    <string name="start">START THE GAME</string>
+    <string name="preference">SETTINGS</string>
+    <string name="perdu">YOU LOST!</string>
+    <string name="victoire">YOU WON!</string>
+    <string name="rejouer">PLAY AGAIN</string>
+    <string name="reponse">The word was:</string>
+    <string name="commencer">START</string>
+    <string name="historique">HISTORY</string>
+    <string name="temps">Time :</string>
+    <string name="mot">Word :</string>
+    <string name="retour">BACK</string>
+    <string name="nbErreur">"Errors "</string>
+    <string name="dictionnaire">DICTIONNARY</string>
+    <string name="placeHolder_mot">Entrer a word</string>
+    <string name="ajouter">ADD</string>
+    <string name="langue">LANGUAGE</string>
+    <string name="difficult">DIFFICULTY</string>
+    <string name="francais">FRENCH</string>
+    <string name="english">ENGLISH</string>
+    <string name="facile">EASY</string>
+    <string name="normal">NORMAL</string>
+    <string name="dur">HARD</string>
+    <string name="motInput">Enter a word</string>
+</resources>
