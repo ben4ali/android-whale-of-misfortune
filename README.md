@@ -1,93 +1,74 @@
-# Projet pendu
+# Whale of Misfortune
+
+**Whale of Misfortune** is an Android game inspired by *Undertale* and the classic *Hangman* game. Your goal is to guess the correct word, but every time you guess the wrong letter, you’ll remove a limb from our whale friend.
+
+## Features
+
+- **Interactive Gameplay**: Guess the word, but beware! Each wrong guess brings the whale closer to misfortune.
+- **Unique Whale Animations**: Watch as the whale character reacts with smooth animations from many pop culture references.
+- **Internationalization**: Add and guess words from multiple languages
+
+##  How to Play
+
+1. Start a new game and a word will be randomly selected.
+2. Guess letters one by one.
+3. For every wrong guess, a limb of the whale will be removed.
+4. Guess the word correctly before the whale loses all of its limbs!
+5. Keep track of your score in the history
+6. Add or remove words in the dictionnary
+
+##  Animations
+These animations we're made by myself on Aseprite and are inspired by many references from games, anime and movies.
+
+### Idle Animations
+The whale has fun idle animations to keep it lively while you guess the word:
+
+- **Idle Animation 1**:  
+  ![Idle Animation 1](app/src/main/res/drawable/whale_animated.gif)
+  
+- **Idle Animation 2**:  
+  ![Idle Animation 2](app/src/main/res/drawable/whale_idle1.gif)
+
+- **Idle Animation 3**:  
+  ![Idle Animation 3](app/src/main/res/drawable/while_idle2.gif)
+
+- **Idle Animation 4**:  
+  ![Idle Animation 4](app/src/main/res/drawable/whale_idle3.gif)
+
+- **Idle Animation 5**:  
+  ![Idle Animation 5](app/src/main/res/drawable/whale_idle4.gif)
+
+- **Idle Animation 6**:  
+  ![Idle Animation 5](app/src/main/res/drawable/whale_idle5.gif)
 
 
+### Error Gifs
 
-## Getting started
+Each wrong guess removes a limb, with accompanying animations:
 
-To make it easy for you to get started with GitLab, here's a list of recommended next steps.
+- **Error Animation 1** ( Undertale - Slash ):  
+  ![Error Animation 1](app/src/main/res/drawable/whale_error1.gif)
+  
+- **Error Animation 2** ( Dragon Ball - Kamehameha ):  
+  ![Error Animation 2](app/src/main/res/drawable/whale_error2.gif)
 
-Already a pro? Just edit this README.md and make it your own. Want to make it easy? [Use the template at the bottom](#editing-this-readme)!
+- **Error Animation 3** ( Portal - Portals ) :  
+  ![Error Animation 3](app/src/main/res/drawable/whale_error3.gif)
 
-## Add your files
+- **Error Animation 4** ( Star Wars - Lightsaber ):  
+  ![Error Animation 4](app/src/main/res/drawable/whale_error4.gif)
 
-- [ ] [Create](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#create-a-file) or [upload](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#upload-a-file) files
-- [ ] [Add files using the command line](https://docs.gitlab.com/ee/gitlab-basics/add-file.html#add-a-file-using-the-command-line) or push an existing Git repository with the following command:
+- **Error Animation 5** ( Jujutsu Kaisen - Hollow Purple ):  
+  ![Error Animation 5](app/src/main/res/drawable/whale_error5.gif)
+  
+- **Error Animation 6** ( Avengers : Infinity war - Thanos snap ) :  
+  ![Error Animation 5](app/src/main/res/drawable/whale_error6.gif)
 
-```
-cd existing_repo
-git remote add origin https://git.dti.crosemont.quebec/2268340/projet-pendu.git
-git branch -M main
-git push -uf origin main
-```
+##  Installation
 
-## Integrate with your tools
-
-- [ ] [Set up project integrations](https://git.dti.crosemont.quebec/2268340/projet-pendu/-/settings/integrations)
-
-## Collaborate with your team
-
-- [ ] [Invite team members and collaborators](https://docs.gitlab.com/ee/user/project/members/)
-- [ ] [Create a new merge request](https://docs.gitlab.com/ee/user/project/merge_requests/creating_merge_requests.html)
-- [ ] [Automatically close issues from merge requests](https://docs.gitlab.com/ee/user/project/issues/managing_issues.html#closing-issues-automatically)
-- [ ] [Enable merge request approvals](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/)
-- [ ] [Set auto-merge](https://docs.gitlab.com/ee/user/project/merge_requests/merge_when_pipeline_succeeds.html)
-
-## Test and Deploy
-
-Use the built-in continuous integration in GitLab.
-
-- [ ] [Get started with GitLab CI/CD](https://docs.gitlab.com/ee/ci/quick_start/index.html)
-- [ ] [Analyze your code for known vulnerabilities with Static Application Security Testing (SAST)](https://docs.gitlab.com/ee/user/application_security/sast/)
-- [ ] [Deploy to Kubernetes, Amazon EC2, or Amazon ECS using Auto Deploy](https://docs.gitlab.com/ee/topics/autodevops/requirements.html)
-- [ ] [Use pull-based deployments for improved Kubernetes management](https://docs.gitlab.com/ee/user/clusters/agent/)
-- [ ] [Set up protected environments](https://docs.gitlab.com/ee/ci/environments/protected_environments.html)
-
-***
-
-# Editing this README
-
-When you're ready to make this README your own, just edit this file and use the handy template below (or feel free to structure it however you want - this is just a starting point!). Thanks to [makeareadme.com](https://www.makeareadme.com/) for this template.
-
-## Suggestions for a good README
-
-Every project is different, so consider which of these sections apply to yours. The sections used in the template are suggestions for most open source projects. Also keep in mind that while a README can be too long and detailed, too long is better than too short. If you think your README is too long, consider utilizing another form of documentation rather than cutting out information.
-
-## Name
-Choose a self-explaining name for your project.
-
-## Description
-Let people know what your project can do specifically. Provide context and add a link to any reference visitors might be unfamiliar with. A list of Features or a Background subsection can also be added here. If there are alternatives to your project, this is a good place to list differentiating factors.
-
-## Badges
-On some READMEs, you may see small images that convey metadata, such as whether or not all the tests are passing for the project. You can use Shields to add some to your README. Many services also have instructions for adding a badge.
-
-## Visuals
-Depending on what you are making, it can be a good idea to include screenshots or even a video (you'll frequently see GIFs rather than actual videos). Tools like ttygif can help, but check out Asciinema for a more sophisticated method.
-
-## Installation
-Within a particular ecosystem, there may be a common way of installing things, such as using Yarn, NuGet, or Homebrew. However, consider the possibility that whoever is reading your README is a novice and would like more guidance. Listing specific steps helps remove ambiguity and gets people to using your project as quickly as possible. If it only runs in a specific context like a particular programming language version or operating system or has dependencies that have to be installed manually, also add a Requirements subsection.
-
-## Usage
-Use examples liberally, and show the expected output if you can. It's helpful to have inline the smallest example of usage that you can demonstrate, while providing links to more sophisticated examples if they are too long to reasonably include in the README.
-
-## Support
-Tell people where they can go to for help. It can be any combination of an issue tracker, a chat room, an email address, etc.
-
-## Roadmap
-If you have ideas for releases in the future, it is a good idea to list them in the README.
-
-## Contributing
-State if you are open to contributions and what your requirements are for accepting them.
-
-For people who want to make changes to your project, it's helpful to have some documentation on how to get started. Perhaps there is a script that they should run or some environment variables that they need to set. Make these steps explicit. These instructions could also be useful to your future self.
-
-You can also document commands to lint the code or run tests. These steps help to ensure high code quality and reduce the likelihood that the changes inadvertently break something. Having instructions for running tests is especially helpful if it requires external setup, such as starting a Selenium server for testing in a browser.
-
-## Authors and acknowledgment
-Show your appreciation to those who have contributed to the project.
-
-## License
-For open source projects, say how it is licensed.
-
-## Project status
-If you have run out of energy or time for your project, put a note at the top of the README saying that development has slowed down or stopped completely. Someone may choose to fork your project or volunteer to step in as a maintainer or owner, allowing your project to keep going. You can also make an explicit request for maintainers.
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/ben4ali/android-whale-of-misfortune.git
+   ```
+2. Open the project in Android Studio.
+3. Build and run the project on your emulator or connected devic
